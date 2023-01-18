@@ -28,6 +28,8 @@ namespace Stockfish {
 
 class Position;
 
+int input_file_fd;
+
 namespace UCI {
 
 // Normalizes the internal value as reported by evaluate or search
